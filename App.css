@@ -1,0 +1,38 @@
+.App {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+  font-size: 75px;
+  z-index: 1;
+}
+
+.description-text {
+  position: absolute;
+  top: 50%; 
+  left: 36.5%; 
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px; 
+  z-index: 1;
+}
