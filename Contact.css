@@ -1,35 +1,17 @@
- 
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    background-color: white; 
-    margin: 0;
-    padding: 0; 
-  }
+.contact-container {
+  background-color: white;
+  padding: 200px; /* Adjust padding as needed */
+  position: relative; /* Ensure relative positioning */
+  z-index: 1;
+}
 
 .contact-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
+  display: flex;
+  align-items: start;
+  margin-bottom: 10px; /* Add margin bottom */
 }
 
 .icon {
-    font-size: 24px; 
-    margin-right: 10px; 
+  font-size: 24px;
+  margin-right: 10px;
 }
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .contact-item .icon {
-    font-size: 24px; 
-    margin-right: 10px; 
-  } 
