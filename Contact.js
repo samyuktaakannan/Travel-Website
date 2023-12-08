@@ -6,7 +6,7 @@ import './Contact.css';
 function Contact() {
   return (
     <div className="contact-container">
-      <h2>Contact Us</h2>
+      <h1>Contact Us</h1>
       <div className="contact-info">
         <div className="contact-item">
           <FontAwesomeIcon icon={faPhone} className="icon" />
