@@ -1,6 +1,10 @@
 .gallery-container {
     text-align: center;
     height: 100vh; 
+    bottom: 0%;
+    top: 0%;
+    position: relative; 
+    z-index: 1;
 }
 
 .horizontal-images {
@@ -9,6 +13,7 @@
     align-items: stretch; 
     flex-wrap: nowrap;
     height: 100%; 
+    bottom: 50%;
 }
 
 .image-item {
